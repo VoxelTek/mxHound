@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Wii")(type "KiCad")(uri "${KIPRJMOD}/Footprints/Wii.pretty")(options "")(descr ""))
+)

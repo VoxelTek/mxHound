@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Wii")(type "KiCad")(uri "${KIPRJMOD}/Symbols/Wii.kicad_sym")(options "")(descr ""))
+)
