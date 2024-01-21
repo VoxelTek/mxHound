@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "8.0.0~rc1-42d8c85f12~176~ubuntu22.04.1"
     },
-    "CreationDate": "2024-01-15T17:13:56+10:00"
+    "CreationDate": "2024-01-16T22:26:44+10:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -14,11 +14,11 @@
       "Revision": "rev?"
     },
     "Size": {
-      "X": 42.4,
-      "Y": 28.4
+      "X": 47.2751,
+      "Y": 28.375
     },
     "LayerNumber": 2,
-    "BoardThickness": 1.6,
+    "BoardThickness": 0.1,
     "Finish": "None"
   },
   "DesignRules": [
@@ -27,7 +27,7 @@
       "PadToPad": 0.2,
       "PadToTrack": 0.2,
       "TrackToTrack": 0.2,
-      "MinLineWidth": 0.25,
+      "MinLineWidth": 0.2,
       "TrackToRegion": 0.2,
       "RegionToRegion": 0.2
     }
@@ -90,24 +90,31 @@
     },
     {
       "Type": "SolderMask",
+      "Thickness": 0.01,
+      "Material": "Epoxy",
       "Name": "Top Solder Mask"
     },
     {
       "Type": "Copper",
+      "Thickness": 0.035,
       "Name": "F.Cu"
     },
     {
       "Type": "Dielectric",
-      "Material": "FR4",
+      "Color": "R205G130B0",
+      "Thickness": 0.01,
+      "Material": "Polyimide",
       "Name": "F.Cu/B.Cu",
       "Notes": "Type: dielectric layer 1 (from F.Cu to B.Cu)"
     },
     {
       "Type": "Copper",
+      "Thickness": 0.035,
       "Name": "B.Cu"
     },
     {
       "Type": "SolderMask",
+      "Thickness": 0.01,
       "Name": "Bottom Solder Mask"
     },
     {
