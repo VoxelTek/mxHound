@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20240101)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "8.99")
 	(uuid "b1683ed1-ed09-487c-8d86-af8ebf2f63f7")
 	(paper "A4")
 	(lib_symbols
@@ -98,134 +98,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Connector:TestPoint_2Pole"
-			(pin_names
-				(offset 0.762) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 1.524 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint_2Pole"
-				(at 0 -1.778 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "2-polar test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_2Pole_0_1"
-				(circle
-					(center -1.778 0)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.778 0)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -370,28 +242,27 @@
 				)
 			)
 		)
-		(symbol "Device:Crystal_GND23"
+		(symbol "Device:Crystal"
+			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Y"
-				(at 3.175 5.08 0)
+				(at 0 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "Crystal_GND23"
-				(at 3.175 3.175 0)
+			(property "Value" "Crystal"
+				(at 0 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -412,7 +283,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Four pin crystal, GND on pins 2 and 3"
+			(property "Description" "Two pin crystal"
 				(at 0 0 0)
 				(effects
 					(font
@@ -439,7 +310,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Crystal_GND23_0_1"
+			(symbol "Crystal_0_1"
 				(rectangle
 					(start -1.143 2.54)
 					(end 1.143 -2.54)
@@ -453,7 +324,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 0) (xy -2.032 0)
+						(xy -2.54 0) (xy -1.905 0)
 					)
 					(stroke
 						(width 0)
@@ -465,7 +336,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 -1.27) (xy -2.032 1.27)
+						(xy -1.905 -1.27) (xy -1.905 1.27)
 					)
 					(stroke
 						(width 0.508)
@@ -477,31 +348,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -3.81) (xy 0 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.556) (xy 0 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 -1.27) (xy 2.032 1.27)
+						(xy 1.905 -1.27) (xy 1.905 1.27)
 					)
 					(stroke
 						(width 0.508)
@@ -513,31 +360,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.032 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -2.286) (xy -2.54 -3.556) (xy 2.54 -3.556) (xy 2.54 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 2.286) (xy -2.54 3.556) (xy 2.54 3.556) (xy 2.54 2.286)
+						(xy 2.54 0) (xy 1.905 0)
 					)
 					(stroke
 						(width 0)
@@ -548,7 +371,7 @@
 					)
 				)
 			)
-			(symbol "Crystal_GND23_1_1"
+			(symbol "Crystal_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 1.27)
@@ -568,7 +391,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 5.08 270)
+					(at 3.81 0 180)
 					(length 1.27)
 					(name "2"
 						(effects
@@ -578,42 +401,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 1.27)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1621,26 +1408,26 @@
 		(uuid "4959d461-ecdc-4d00-a274-97763006273d")
 	)
 	(junction
-		(at 48.26 77.47)
+		(at 44.45 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5f9317b6-d1e0-4a60-9274-9a2b2759cdbf")
+		(uuid "8adad8ec-15af-4967-aa84-a310b1051db0")
 	)
 	(junction
-		(at 48.26 85.09)
+		(at 43.18 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d00bbc46-24af-40fc-9ac6-734978b740eb")
+		(uuid "92040f9b-7eca-4f89-8250-71aa566320e3")
 	)
 	(junction
-		(at 123.19 105.41)
+		(at 43.18 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f1fcd0aa-e6ec-4850-9357-d04d7ef1a1c8")
+		(uuid "af1baf67-ff64-4c42-b881-3bcf5e758911")
 	)
 	(wire
 		(pts
-			(xy 46.99 130.81) (xy 39.37 130.81)
+			(xy 46.99 130.81) (xy 44.45 130.81)
 		)
 		(stroke
 			(width 0)
@@ -1650,17 +1437,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 81.28) (xy 53.34 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07a5ebc8-63e9-43e4-b892-e00361349f9c")
-	)
-	(wire
-		(pts
-			(xy 99.06 78.74) (xy 96.52 78.74)
+			(xy 96.52 78.74) (xy 99.06 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1710,43 +1487,13 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 105.41) (xy 123.19 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b13ffcd-bca6-4523-b74f-cdc63c60cb66")
-	)
-	(wire
-		(pts
-			(xy 48.26 85.09) (xy 57.15 85.09)
+			(xy 39.37 85.09) (xy 43.18 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3437c8d3-e9c1-4c5a-9c89-6b10c90aa98f")
-	)
-	(wire
-		(pts
-			(xy 128.27 114.3) (xy 128.27 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "348fee91-f325-4cf2-9a1d-424276b36d6b")
-	)
-	(wire
-		(pts
-			(xy 118.11 114.3) (xy 118.11 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a5d8b0d-58cb-4c5f-8501-fc68948f85d2")
 	)
 	(wire
 		(pts
@@ -1770,17 +1517,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 77.47) (xy 57.15 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "551e9a8a-c8bf-4b4f-8e01-667e30304044")
-	)
-	(wire
-		(pts
-			(xy 39.37 77.47) (xy 48.26 77.47)
+			(xy 39.37 77.47) (xy 43.18 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1810,23 +1547,13 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 85.09) (xy 48.26 85.09)
+			(xy 43.18 77.47) (xy 57.15 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9f7176b5-87fc-44d2-8235-73c0867ae45f")
-	)
-	(wire
-		(pts
-			(xy 128.27 105.41) (xy 123.19 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3a11151-3334-4583-b5c8-5ee3d9bf9ad7")
+		(uuid "93c61382-9331-43b1-b573-b59e5b601c8c")
 	)
 	(wire
 		(pts
@@ -1840,13 +1567,33 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 78.74) (xy 87.63 78.74)
+			(xy 87.63 78.74) (xy 91.44 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d0c5196f-f120-4c94-bc52-671682335405")
+	)
+	(wire
+		(pts
+			(xy 44.45 130.81) (xy 39.37 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3a37068-d86a-419b-b255-3fdd23163376")
+	)
+	(wire
+		(pts
+			(xy 43.18 85.09) (xy 57.15 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d61573ec-23d9-41a7-8525-7beeb2c6b728")
 	)
 	(wire
 		(pts
@@ -1867,16 +1614,6 @@
 			(type default)
 		)
 		(uuid "fab77e07-6e14-489d-b62f-2dc6e0fa1a49")
-	)
-	(wire
-		(pts
-			(xy 43.18 81.28) (xy 43.18 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fcc30e8d-546a-4192-a361-0a5f25d2f210")
 	)
 	(label "DATA1"
 		(at 90.17 91.44 0)
@@ -1899,6 +1636,17 @@
 			(justify left bottom)
 		)
 		(uuid "98a17da7-f526-449d-8707-7fbc5f34135e")
+	)
+	(label "BATT"
+		(at 111.76 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ddfadf7a-c89d-48c6-b14f-b0d4685838d6")
 	)
 	(label "DATA0"
 		(at 90.17 88.9 0)
@@ -2129,80 +1877,6 @@
 			(project "MXBreakout"
 				(path "/b1683ed1-ed09-487c-8d86-af8ebf2f63f7"
 					(reference "U10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Crystal_GND23")
-		(at 48.26 81.28 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1ab0645c-9a0f-473a-be13-e0fc01b3f37e")
-		(property "Reference" "X1"
-			(at 48.26 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "32.768kHz"
-			(at 48.26 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Crystal:Crystal_SMD_Abracon_ABS25-4Pin_8.0x3.8mm"
-			(at 48.26 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 48.26 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 48.26 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a4eb24ec-2e3e-48ad-b292-a10f6c2d8d88")
-		)
-		(pin "2"
-			(uuid "e6f4824a-da7c-4a68-a554-ddee444305a7")
-		)
-		(pin "3"
-			(uuid "177bbcfe-94de-4509-8a42-abdcf9657b90")
-		)
-		(pin "4"
-			(uuid "36319f12-d4b4-49e0-a035-820377d08927")
-		)
-		(instances
-			(project "MXBreakout"
-				(path "/b1683ed1-ed09-487c-8d86-af8ebf2f63f7"
-					(reference "X1")
 					(unit 1)
 				)
 			)
@@ -2475,72 +2149,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 53.34 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "41c6c7bc-af6f-468f-aca6-198e5b027bea")
-		(property "Reference" "#PWR04"
-			(at 53.34 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 53.34 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 53.34 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6a5be7c3-c471-4c61-a647-a6190bbd5a92")
-		)
-		(instances
-			(project "MXBreakout"
-				(path "/b1683ed1-ed09-487c-8d86-af8ebf2f63f7"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 36.83 77.47 90)
 		(unit 1)
@@ -2593,6 +2201,15 @@
 				(hide yes)
 			)
 		)
+		(property "MouserPart" "81-GRM1555C1H5R0BA1D"
+			(at 36.83 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5a468210-9d9a-4ac0-a2de-fa828f8effe6")
 		)
@@ -2603,72 +2220,6 @@
 			(project "MXBreakout"
 				(path "/b1683ed1-ed09-487c-8d86-af8ebf2f63f7"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 148.59 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6c7ac983-20c9-43e4-a8dd-4aaaa851a0fb")
-		(property "Reference" "#PWR06"
-			(at 148.59 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 148.59 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 148.59 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 148.59 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8465055d-c45b-4ebb-ae4f-cc553f5f7ae2")
-		)
-		(instances
-			(project "MXBreakout"
-				(path "/b1683ed1-ed09-487c-8d86-af8ebf2f63f7"
-					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -2941,15 +2492,15 @@
 	(symbol
 		(lib_id "Device:D_Small")
 		(at 93.98 78.74 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8fe4e688-d10b-4304-ad7c-43175893014e")
 		(property "Reference" "D1"
-			(at 93.98 72.39 0)
+			(at 93.98 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2957,7 +2508,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 93.98 74.93 0)
+			(at 93.98 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3361,139 +2912,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 123.19 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bb11ed54-7550-430c-9f62-48b9ca5edd62")
-		(property "Reference" "#PWR011"
-			(at 123.19 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 123.19 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 123.19 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 123.19 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "36d62f5d-d13b-4ed4-8618-23e042932ba1")
-		)
-		(instances
-			(project "MXBreakout"
-				(path "/b1683ed1-ed09-487c-8d86-af8ebf2f63f7"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 148.59 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c1d813b0-25bc-4052-a0f1-e21cf2541c30")
-		(property "Reference" "TP2"
-			(at 151.13 100.838 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GND"
-			(at 151.13 103.378 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 153.67 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 153.67 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 148.59 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "45e5d321-8e37-4f51-8a08-90250cba26de")
-		)
-		(instances
-			(project "MXBreakout"
-				(path "/b1683ed1-ed09-487c-8d86-af8ebf2f63f7"
-					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 72.39 115.57 0)
 		(unit 1)
@@ -3620,72 +3038,6 @@
 			(project "MXBreakout"
 				(path "/b1683ed1-ed09-487c-8d86-af8ebf2f63f7"
 					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 43.18 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "caa73bfa-0053-4a0d-ac77-8dbaf25c7da0")
-		(property "Reference" "#PWR03"
-			(at 43.18 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 43.18 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 43.18 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "476cfc49-3c98-455b-9a0b-b5f8b65b6193")
-		)
-		(instances
-			(project "MXBreakout"
-				(path "/b1683ed1-ed09-487c-8d86-af8ebf2f63f7"
-					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -3850,6 +3202,15 @@
 				(hide yes)
 			)
 		)
+		(property "MouserPart" "81-GRM1555C1H5R0BA1D"
+			(at 36.83 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0767fb24-f0c5-43b2-8e55-2aa916da9c07")
 		)
@@ -3933,6 +3294,142 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Crystal")
+		(at 43.18 81.28 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db487836-fcf0-4805-a9b7-ec93c761edb1")
+		(property "Reference" "Y1"
+			(at 46.99 80.0099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "32.768kHz"
+			(at 46.99 82.5499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Crystal:Crystal_SMD_2012-2Pin_2.0x1.2mm"
+			(at 43.18 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Two pin crystal"
+			(at 43.18 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b14c9586-f9f1-4bf2-9923-1bcba5c1b53b")
+		)
+		(pin "2"
+			(uuid "7ecf6ccd-6684-4939-bf3a-15b3859d4f65")
+		)
+		(instances
+			(project "MXBreakout"
+				(path "/b1683ed1-ed09-487c-8d86-af8ebf2f63f7"
+					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 44.45 130.81 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e30565c8-bdeb-492c-b25c-f213c504b53c")
+		(property "Reference" "TP12"
+			(at 41.91 135.3821 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "U10"
+			(at 41.91 132.8421 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 39.37 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.37 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 44.45 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7db46e5b-630b-4e1f-8843-610ab732e58f")
+		)
+		(instances
+			(project "MXBreakout"
+				(path "/b1683ed1-ed09-487c-8d86-af8ebf2f63f7"
+					(reference "TP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 101.6 78.74 90)
 		(unit 1)
@@ -3995,74 +3492,6 @@
 			(project "MXBreakout"
 				(path "/b1683ed1-ed09-487c-8d86-af8ebf2f63f7"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_2Pole")
-		(at 123.19 114.3 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f84591c3-b922-415d-94fd-ff8b18d533c4")
-		(property "Reference" "TP10"
-			(at 123.19 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint_2Pole"
-			(at 123.19 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 123.19 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 123.19 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "2-polar test point"
-			(at 123.19 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2e670bdd-5769-4aa7-9208-f4401f28c05b")
-		)
-		(pin "2"
-			(uuid "56362666-825b-46c4-ba6d-d0869b192642")
-		)
-		(instances
-			(project "MXBreakout"
-				(path "/b1683ed1-ed09-487c-8d86-af8ebf2f63f7"
-					(reference "TP10")
 					(unit 1)
 				)
 			)
