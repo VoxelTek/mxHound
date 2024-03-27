@@ -490,7 +490,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "./PCB",
+      "plot": "./Gerbers",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "MXBreakout.step",
