@@ -3,9 +3,9 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "7.0.10-7.0.10~ubuntu22.04.1"
+      "Version": "8.99.0-unknown-4e8e14ae3a~177~ubuntu22.04.1"
     },
-    "CreationDate": "2024-01-14T22:11:42+10:00"
+    "CreationDate": "2024-03-17T17:43:00+10:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -14,11 +14,11 @@
       "Revision": "rev?"
     },
     "Size": {
-      "X": 27.999,
-      "Y": 19.099
+      "X": 41.3251,
+      "Y": 21.275
     },
     "LayerNumber": 2,
-    "BoardThickness": 1.6,
+    "BoardThickness": 0.1,
     "Finish": "None"
   },
   "DesignRules": [
@@ -27,7 +27,7 @@
       "PadToPad": 0.2,
       "PadToTrack": 0.2,
       "TrackToTrack": 0.2,
-      "MinLineWidth": 0.25,
+      "MinLineWidth": 0.2,
       "TrackToRegion": 0.2,
       "RegionToRegion": 0.2
     }
@@ -90,24 +90,31 @@
     },
     {
       "Type": "SolderMask",
+      "Thickness": 0.01,
+      "Material": "Epoxy",
       "Name": "Top Solder Mask"
     },
     {
       "Type": "Copper",
+      "Thickness": 0.035,
       "Name": "F.Cu"
     },
     {
       "Type": "Dielectric",
-      "Material": "FR4",
+      "Color": "R205G130B0",
+      "Thickness": 0.01,
+      "Material": "Polyimide",
       "Name": "F.Cu/B.Cu",
       "Notes": "Type: dielectric layer 1 (from F.Cu to B.Cu)"
     },
     {
       "Type": "Copper",
+      "Thickness": 0.035,
       "Name": "B.Cu"
     },
     {
       "Type": "SolderMask",
+      "Thickness": 0.01,
       "Name": "Bottom Solder Mask"
     },
     {
