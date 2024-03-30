@@ -65,10 +65,6 @@
         [
           "copper_edge_clearance|81950000|54800000|062a48be-1c6f-4410-b420-1806580f7cb3|f1400069-9231-4ddf-9744-9283dc0aa5e1",
           ""
-        ],
-        [
-          "copper_edge_clearance|82000000|55800000|062a48be-1c6f-4410-b420-1806580f7cb3|de7f5b06-443c-4aee-a972-59d6c12b22b7",
-          ""
         ]
       ],
       "meta": {
@@ -444,6 +440,7 @@
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
+      "single_global_label": "ignore",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
@@ -482,7 +479,23 @@
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "+3.3V": "",
+      "/BATT": "",
+      "/DATA0": "",
+      "/DATA1": "",
+      "/DATA2": "",
+      "/DATA3": "",
+      "GND": "",
+      "Net-(D1-A)": "",
+      "Net-(D1-K)": "",
+      "Net-(U1-X_1)": "",
+      "Net-(U1-X_2)": "",
+      "Net-(U10-RST)": "",
+      "unconnected-(D1-A-Pad2)": "",
+      "unconnected-(U1-U22-Pad20)": "",
+      "unconnected-(U2-RST-Pad4)": ""
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
