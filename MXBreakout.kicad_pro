@@ -53,20 +53,7 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [
-        [
-          "copper_edge_clearance|81800000|54800000|062a48be-1c6f-4410-b420-1806580f7cb3|42511442-9d55-430a-bc4d-488f237acb25",
-          ""
-        ],
-        [
-          "copper_edge_clearance|81800000|55800000|062a48be-1c6f-4410-b420-1806580f7cb3|38383b88-afe7-46a7-9bde-bc57b4ae557f",
-          ""
-        ],
-        [
-          "copper_edge_clearance|81950000|54800000|062a48be-1c6f-4410-b420-1806580f7cb3|f1400069-9231-4ddf-9744-9283dc0aa5e1",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
