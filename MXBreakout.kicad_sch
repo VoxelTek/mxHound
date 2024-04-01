@@ -1427,6 +1427,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 118.11) (xy 161.29 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08278565-f786-4b88-800d-f4395369a199")
+	)
+	(wire
+		(pts
 			(xy 33.02 82.55) (xy 36.83 82.55)
 		)
 		(stroke
@@ -1537,6 +1547,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 97.79) (xy 161.29 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "756bb86d-e1db-4798-8388-089bac009398")
+	)
+	(wire
+		(pts
 			(xy 90.17 91.44) (xy 111.76 91.44)
 		)
 		(stroke
@@ -1554,6 +1574,16 @@
 			(type default)
 		)
 		(uuid "9aab72a9-f913-4cdb-bf46-01402b39fc70")
+	)
+	(wire
+		(pts
+			(xy 154.94 107.95) (xy 161.29 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a405f6fd-3b43-4ff0-b512-a3e8c3c59f8d")
 	)
 	(wire
 		(pts
@@ -1615,6 +1645,17 @@
 		)
 		(uuid "fa792f46-4b24-438b-9e64-99edabcc7204")
 	)
+	(label "SOFT"
+		(at 154.94 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "23fb3e29-749d-4a43-b9d1-5524e0163613")
+	)
 	(label "DATA2"
 		(at 92.71 91.44 0)
 		(fields_autoplaced yes)
@@ -1636,6 +1677,17 @@
 			(justify left bottom)
 		)
 		(uuid "757a5d3c-5737-4ca9-a69f-462b1c2082ce")
+	)
+	(label "POWER"
+		(at 154.94 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7d0adb11-cb0a-4572-a0e4-c2642a00f253")
 	)
 	(label "DATA0"
 		(at 92.71 86.36 0)
@@ -1669,6 +1721,17 @@
 			(justify left bottom)
 		)
 		(uuid "b651f07a-e7ad-48e7-ad91-60e78574131a")
+	)
+	(label "RESET"
+		(at 154.94 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fa5666ea-21e4-43f4-8512-25e0f6dc0630")
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
@@ -1764,7 +1827,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm"
+		(property "Footprint" "Wii:MX_SOIC"
 			(at 76.2 64.77 0)
 			(effects
 				(font
@@ -2320,6 +2383,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 161.29 118.11 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51bd4b35-e410-4555-beea-645497d46042")
+		(property "Reference" "TP15"
+			(at 166.37 116.8399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SOFT_pad"
+			(at 166.37 119.3799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Wii:TestPoint_Pad_D0.5mm"
+			(at 161.29 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 161.29 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d14ba537-9b7f-419a-9839-d5f7c610e2a2")
+		)
+		(instances
+			(project "MXBreakout"
+				(path "/b1683ed1-ed09-487c-8d86-af8ebf2f63f7"
+					(reference "TP15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Small")
 		(at 96.52 76.2 0)
 		(unit 1)
@@ -2700,7 +2830,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Wii:TestPoint_Pad_D0.5mm"
 			(at 45.72 116.84 0)
 			(effects
 				(font
@@ -2734,6 +2864,140 @@
 			(project "MXBreakout"
 				(path "/b1683ed1-ed09-487c-8d86-af8ebf2f63f7"
 					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 161.29 107.95 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82d7be05-a989-423c-9bff-1a6e921343c4")
+		(property "Reference" "TP13"
+			(at 166.37 106.6799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "POWER_pad"
+			(at 166.37 109.2199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Wii:TestPoint_Pad_D0.5mm"
+			(at 161.29 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 161.29 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4da9fa37-7323-445d-9d4b-cfd785f69e9d")
+		)
+		(instances
+			(project "MXBreakout"
+				(path "/b1683ed1-ed09-487c-8d86-af8ebf2f63f7"
+					(reference "TP13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 154.94 97.79 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8d2613b0-eb9f-469a-bdb2-c6f981b9f048")
+		(property "Reference" "TP10"
+			(at 149.86 96.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RESET_point"
+			(at 149.86 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Wii:TestPoint_THTPad_D0.5mm_Drill0.35mm"
+			(at 154.94 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 154.94 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80f7e243-c799-4758-9063-84532c38e669")
+		)
+		(instances
+			(project "MXBreakout"
+				(path "/b1683ed1-ed09-487c-8d86-af8ebf2f63f7"
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -3000,6 +3264,73 @@
 			(project "MXBreakout"
 				(path "/b1683ed1-ed09-487c-8d86-af8ebf2f63f7"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 154.94 107.95 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bd363f5c-31d2-418f-a35f-8e76fce8de66")
+		(property "Reference" "TP12"
+			(at 149.86 106.6799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "POWER_point"
+			(at 149.86 109.2199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Wii:TestPoint_THTPad_D0.5mm_Drill0.35mm"
+			(at 154.94 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 154.94 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "392889dc-52b5-4299-b933-7a83fa2f6120")
+		)
+		(instances
+			(project "MXBreakout"
+				(path "/b1683ed1-ed09-487c-8d86-af8ebf2f63f7"
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -3284,7 +3615,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e06f89d2-a754-4295-a9f0-02348bc1b0ef")
-		(property "Reference" "U2"
+		(property "Reference" "U10"
 			(at 27.432 116.84 0)
 			(effects
 				(font
@@ -3347,7 +3678,7 @@
 		(instances
 			(project "MXBreakout"
 				(path "/b1683ed1-ed09-487c-8d86-af8ebf2f63f7"
-					(reference "U2")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -3425,6 +3756,140 @@
 			(project "MXBreakout"
 				(path "/b1683ed1-ed09-487c-8d86-af8ebf2f63f7"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 154.94 118.11 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ed594aef-8ac9-41b4-b75d-cdc5afb67757")
+		(property "Reference" "TP14"
+			(at 149.86 116.8399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SOFT_point"
+			(at 149.86 119.3799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Wii:TestPoint_THTPad_D0.5mm_Drill0.35mm"
+			(at 154.94 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 154.94 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "403cd310-a00d-47a4-a1bc-8a0dddb371ab")
+		)
+		(instances
+			(project "MXBreakout"
+				(path "/b1683ed1-ed09-487c-8d86-af8ebf2f63f7"
+					(reference "TP14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 161.29 97.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "efd2a8b2-9c17-431d-b0c7-f6ec65326123")
+		(property "Reference" "TP11"
+			(at 166.37 96.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RESET_pad"
+			(at 166.37 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Wii:TestPoint_Pad_D0.5mm"
+			(at 161.29 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 161.29 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "94f73d75-bc29-4ce5-85ec-3ed855634629")
+		)
+		(instances
+			(project "MXBreakout"
+				(path "/b1683ed1-ed09-487c-8d86-af8ebf2f63f7"
+					(reference "TP11")
 					(unit 1)
 				)
 			)
