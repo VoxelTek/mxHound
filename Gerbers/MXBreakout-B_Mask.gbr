@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,8.99.0-unknown-0a89236f19~177~ubuntu22.04.1*%
-%TF.CreationDate,2024-04-01T21:40:26+10:00*%
+%TF.CreationDate,2024-04-02T18:15:29+10:00*%
 %TF.ProjectId,MXBreakout,4d584272-6561-46b6-9f75-742e6b696361,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Soldermask,Bot*%
 %TF.FilePolarity,Negative*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 8.99.0-unknown-0a89236f19~177~ubuntu22.04.1) date 2024-04-01 21:40:26*
+G04 Created by KiCad (PCBNEW 8.99.0-unknown-0a89236f19~177~ubuntu22.04.1) date 2024-04-02 18:15:29*
 %MOMM*%
 %LPD*%
 G01*
@@ -37,6 +37,9 @@ G02*
 X81962500Y-55800000I162500J0D01*
 G01*
 D11*
+%TO.C,TP3*%
+X57000000Y-58000000D03*
+%TD*%
 %TO.C,TP3*%
 X84250000Y-52625000D03*
 %TD*%
