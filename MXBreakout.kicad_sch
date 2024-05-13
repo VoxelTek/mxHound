@@ -2480,7 +2480,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SOFT_pad"
+		(property "Value" "SHUTDOWN"
 			(at 166.37 119.3799 90)
 			(effects
 				(font
@@ -2967,7 +2967,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "POWER_pad"
+		(property "Value" "POWER"
 			(at 166.37 109.2199 90)
 			(effects
 				(font
@@ -3992,7 +3992,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RESET_pad"
+		(property "Value" "RESET"
 			(at 166.37 99.0599 90)
 			(effects
 				(font
