@@ -1,20 +1,21 @@
 # mxHound
-### A Wii RTC-RVL (MX) relocation flex
+### A Wii RTC-RVL ("MX chip") relocation flex
 
-![image](https://github.com/VoxelTek/mxHound/assets/53562267/43dbdc7d-d280-472a-bd83-501044c6b0d7)
+![image](https://github.com/user-attachments/assets/e02e0322-a0b7-466d-b652-4494f465d414)
 
 
 This flexible PCB aims to simplify the relocation of the Wii MX chip, to make creating portables that utilise it as easy as possible.
 
 Due to the overlapping of the via used for the U10, I decided to also relocate it onto here. I also added a solder pad if U10 emulation (like what's featured on the RVL-PMS line) is used, or if U10 is located elsewhere. 
 
-This flex primarily reuses the original components found on the Wii motherboard, with the alignments as follows:
+Additional pads were added for soft shutdown and the EXI bus, primarily for the RVL-DD.
 
-- R1 = R60 (1kΩ, 0402 (1005 metric))
-- D1 = D31 (0603 (1608 metric) package, unknown specs)
-- C1 = C101 (5pF, 0402 (1005 metric))
-- C2 = C102 (5pF, 0402 (1005 metric))
-- C3 = C98 (100nF, 0402 (1005 metric))
+This flex primarily reuses the original components found on the Wii motherboard, with the reference designators for the passive components matching the corresponding components from the Wii.
+
+- R60 = 1kΩ, 0402 (1005 metric)
+- D31 = 0603 (1608 metric) package, unknown specs
+- C101, C102 = 5pF, 0402 (1005 metric)
+- C98 = 100nF, 0402 (1005 metric)
 
 To reduce space, the crystal has been swapped for a smaller one. Any crystal with a frequency of 32.768 kHz and a load capacitance of 4pF in a 2mm x 1.2mm package should work fine.
 
