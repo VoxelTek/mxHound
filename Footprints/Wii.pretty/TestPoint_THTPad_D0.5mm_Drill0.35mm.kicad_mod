@@ -1,7 +1,7 @@
 (footprint "TestPoint_THTPad_D0.5mm_Drill0.35mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "THT pad as test Point, diameter 1.0mm, hole diameter 0.5mm")
 	(tags "test point THT pad")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "2820209c-e6d6-46f2-a157-0705368c106e")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -71,7 +61,7 @@
 			(width 0.025)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "544ef127-441a-48f6-bfce-aa15cbd0a042")
 	)
@@ -82,7 +72,7 @@
 			(width 0.025)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "0d3fd0c4-b726-48f7-abf9-ba0ecfbc4d95")
 	)
@@ -99,10 +89,11 @@
 	)
 	(pad "1" thru_hole circle
 		(at 0 0)
-		(size 0.5 0.5)
+		(size 0.6 0.6)
 		(drill 0.4)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "8e467c9f-6e54-4e17-913d-8a170d878962")
 	)
+	(embedded_fonts no)
 )

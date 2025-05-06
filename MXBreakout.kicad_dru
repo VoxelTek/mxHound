@@ -100,3 +100,12 @@
 (rule "Pad to Track clearance)"
 	(constraint clearance (min 0.2mm))
 	(condition "A.isPlated() && B.Type == 'track'"))
+
+
+
+
+
+
+(rule "Zone to edge clearance)"
+	(constraint edge_clearance (min 0.0mm))
+	(condition "A.Type =='Zone' && A.Name =='3.3V_Wii'"))
