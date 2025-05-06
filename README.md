@@ -1,7 +1,7 @@
 # mxHound
 ### A Wii RTC-RVL ("MX chip") relocation flex
 
-![image](https://github.com/user-attachments/assets/e02e0322-a0b7-466d-b652-4494f465d414)
+![image](https://github.com/user-attachments/assets/7c52fef8-ef87-4117-a8a2-910158b5dbc4)
 
 
 This flexible PCB aims to simplify the relocation of the Wii MX chip, to make creating portables that utilise it as easy as possible.
