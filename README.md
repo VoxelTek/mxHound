@@ -8,8 +8,6 @@ This flexible PCB aims to simplify the relocation of the Wii MX chip, to make cr
 
 Due to the overlapping of the via used for the U10, I decided to also relocate it onto here. I also added a solder pad if U10 emulation (like what's featured on the RVL-PMS line) is used, or if U10 is located elsewhere. 
 
-### PLEASE NOTE: I have not yet ordered and tested this board, and as such I have not confirmed if it is functional. ORDER AT YOUR OWN RISK!!
-
 This flex primarily reuses the original components found on the Wii motherboard, with the alignments as follows:
 
 - R1 = R60 (1kΩ, 0402 (1005 metric))
