@@ -55,15 +55,115 @@
       "diff_pair_dimensions": [],
       "drc_exclusions": [
         [
-          "copper_edge_clearance|81800000|54425000|5ceae0b3-3566-4694-a25a-d868fceb38d0|42511442-9d55-430a-bc4d-488f237acb25",
+          "copper_edge_clearance|81800000|54800000|da9094b1-8fad-4395-a5de-2c72ae897277|42511442-9d55-430a-bc4d-488f237acb25",
           ""
         ],
         [
-          "copper_edge_clearance|81800000|56200000|8789ea15-2de4-4e1c-abd5-8bfaa5c8e3dd|38383b88-afe7-46a7-9bde-bc57b4ae557f",
+          "copper_edge_clearance|81800000|56300000|8789ea15-2de4-4e1c-abd5-8bfaa5c8e3dd|38383b88-afe7-46a7-9bde-bc57b4ae557f",
           ""
         ],
         [
-          "hole_to_hole|79600000|54000000|20196da2-b4d4-462c-902f-27a28c92b186|b2e43582-64c1-4b90-b12a-ca44fde4177a",
+          "hole_near_hole|79600000|54000000|b2e43582-64c1-4b90-b12a-ca44fde4177a|20196da2-b4d4-462c-902f-27a28c92b186",
+          ""
+        ],
+        [
+          "silk_overlap|48833281|62440250|fdb46c8b-96d3-4b0b-b701-56dc8efd50b2|f914dd67-8e9b-4734-90af-da37080d837d",
+          ""
+        ],
+        [
+          "silk_overlap|51823859|62645000|e8814d97-1852-4864-8597-1f5ba826faad|f9991b44-f63e-47e1-935b-1591e45efabb",
+          ""
+        ],
+        [
+          "silk_overlap|51823859|63405000|5385d355-ed70-45c1-8c3e-2e54590055f6|f9991b44-f63e-47e1-935b-1591e45efabb",
+          ""
+        ],
+        [
+          "silk_overlap|52131141|62645000|e8814d97-1852-4864-8597-1f5ba826faad|e45a8d72-5214-4171-835f-1d8ff2d4db60",
+          ""
+        ],
+        [
+          "silk_overlap|52131141|63405000|5385d355-ed70-45c1-8c3e-2e54590055f6|e45a8d72-5214-4171-835f-1d8ff2d4db60",
+          ""
+        ],
+        [
+          "silk_overlap|53890000|60892164|c2f57e14-1a49-4de0-b1e1-890eb593f6bf|b42149c9-c00f-4fbd-a141-06ada56f0d12",
+          ""
+        ],
+        [
+          "silk_overlap|53890000|61107836|c2f57e14-1a49-4de0-b1e1-890eb593f6bf|2b022c1a-1b50-42d9-95c5-3136ee35d990",
+          ""
+        ],
+        [
+          "silk_overlap|54000000|58475000|c2893cc5-ff36-4638-a188-159207263b49|3dd22479-5d5f-4bca-819e-15fc096c3005",
+          ""
+        ],
+        [
+          "silk_overlap|54610000|60892164|45b70905-7e6b-46bb-9cb2-73ce302e31be|b42149c9-c00f-4fbd-a141-06ada56f0d12",
+          ""
+        ],
+        [
+          "silk_overlap|54610000|61107836|45b70905-7e6b-46bb-9cb2-73ce302e31be|2b022c1a-1b50-42d9-95c5-3136ee35d990",
+          ""
+        ],
+        [
+          "silk_overlap|55340000|60892164|d8237507-3e35-4487-acc1-0b71a80907c7|472bad4f-e9f5-442f-a200-b6e5c97fa0ee",
+          ""
+        ],
+        [
+          "silk_overlap|55340000|61107836|d8237507-3e35-4487-acc1-0b71a80907c7|63b6a490-b0a7-4271-8614-8bb5d3a5d0af",
+          ""
+        ],
+        [
+          "silk_overlap|56060000|60892164|e4ece990-6d23-4c9f-be1f-8e724df7f838|472bad4f-e9f5-442f-a200-b6e5c97fa0ee",
+          ""
+        ],
+        [
+          "silk_overlap|56060000|61107836|e4ece990-6d23-4c9f-be1f-8e724df7f838|63b6a490-b0a7-4271-8614-8bb5d3a5d0af",
+          ""
+        ],
+        [
+          "silk_overlap|71903123|53482197|46987430-e3f1-44c7-a69d-c318ca2483d1|5cd292c5-7911-4c62-8883-b39cae1146b8",
+          ""
+        ],
+        [
+          "silk_overlap|75503123|54882197|cb65a2c9-ada2-4501-be93-e90f77f7b9db|0139f28b-91c9-4eb5-890b-02acdb18dd9f",
+          ""
+        ],
+        [
+          "silk_overlap|76903123|54482197|d0d6b3ed-3918-44f9-a127-1884b6927b0c|bda808cf-2704-46d6-9e5a-18c96e290f5f",
+          ""
+        ],
+        [
+          "silk_overlap|81503123|51882197|3b2f1bf5-9e2f-47b6-993b-6409327e7f2d|55974de2-7613-41a7-bd30-e64e8a91d626",
+          ""
+        ],
+        [
+          "silk_overlap|81540476|52627409|9e9f668c-29ca-48a5-91fa-8c49375c1aeb|7632dde6-d825-4145-becb-d7a0e602055f",
+          ""
+        ],
+        [
+          "silk_overlap|82440000|53412164|0c18a115-5a58-43bc-9b5a-91f9e2b9c17a|f88bcaf9-a724-4983-adef-3408c954aa04",
+          ""
+        ],
+        [
+          "silk_overlap|82440000|53627836|0c18a115-5a58-43bc-9b5a-91f9e2b9c17a|257d556f-b3dc-4f95-a7b6-7dff63ca9635",
+          ""
+        ],
+        [
+          "silk_overlap|82778571|52627409|9e9f668c-29ca-48a5-91fa-8c49375c1aeb|f88bcaf9-a724-4983-adef-3408c954aa04",
+          ""
+        ],
+        [
+          "silk_overlap|83160000|53412164|8b9520c3-f35f-40de-a117-bfe54232419c|f88bcaf9-a724-4983-adef-3408c954aa04",
+          ""
+        ],
+        [
+          "silk_overlap|83160000|53627836|8b9520c3-f35f-40de-a117-bfe54232419c|257d556f-b3dc-4f95-a7b6-7dff63ca9635",
+          ""
+        ],
+        [
+          "silk_overlap|84020335|52966428|c7aa0fe1-31f4-484f-adea-5e58a300b78d|cd5172e8-8f2d-486f-9ce6-82f6c387df93",
           ""
         ]
       ],
@@ -432,13 +532,11 @@
       "duplicate_sheet_names": "error",
       "endpoint_off_grid": "warning",
       "extra_units": "error",
-      "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
       "four_way_junction": "ignore",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
-      "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
       "lib_symbol_mismatch": "warning",
       "missing_bidi_pin": "warning",
@@ -454,14 +552,10 @@
       "pin_not_driven": "error",
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
-      "same_local_global_label": "warning",
-      "similar_label_and_power": "warning",
       "similar_labels": "warning",
-      "similar_power": "warning",
       "simulation_model_issue": "ignore",
       "single_global_label": "ignore",
       "unannotated": "error",
-      "unconnected_wire_endpoint": "warning",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -608,7 +702,6 @@
     "net_format_name": "",
     "page_layout_descr_file": "",
     "plot_directory": "",
-    "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
